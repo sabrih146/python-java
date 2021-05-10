@@ -1,0 +1,35 @@
+'''
+triangles
+'''
+import turtle
+screen = turtle.Screen()
+screen.bgcolor("lightgreen")
+screen.title("Yertle and Eustace")
+yertle = turtle.Turtle()
+yertle.shape("turtle")
+yertle.color("green")
+yertle.pensize(5)
+yertle.forward(80)
+yertle.left(120)
+yertle.forward(80)
+yertle.left(120)
+yertle.forward(80)
+yertle.left(120)
+yertle.right(180)
+
+
+eustace = turtle.Turtle()
+eustace.shape("turtle")
+eustace.pensize(5)
+eustace.color("red")
+eustace.penup()
+eustace.forward(200)
+eustace.pendown()
+eustace.forward(80)
+eustace.left(120)
+eustace.forward(80)
+eustace.left(120)
+eustace.forward(80)
+eustace.left(120)
+eustace.right(180)
+screen.mainloop()
