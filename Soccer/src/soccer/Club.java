@@ -41,7 +41,7 @@ public class Club {
     
     public void soccerMotto()
     {
-        //System.out.println("be");
+        System.out.println("be"+ "helo");
     }
     
 }
